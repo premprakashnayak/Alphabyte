@@ -1,0 +1,66 @@
+body {
+    font-family: "Itim", sans-serif;
+    margin: 0;
+  }
+  
+  .wrapper {
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("WMjlu7aGfZdCk6svSzhzKg_store_header_image.jpg");
+    background-size: cover;
+  }
+  
+  
+  .greeting {
+  
+    font-size: 2rem;
+  }
+  
+  .name {
+    font-size: 5rem;
+    /*
+      margin: [top] [right] [bottom] [left];
+      margin: 20px 0 20px 0;
+  
+      margin: [top-bottom] [left-right];
+      margin: 20px 0;
+      */
+    margin: 20px 0;
+  }
+  
+  
+  
+  .hobbies {
+    margin-top: 10px;
+    letter-spacing: 3px;
+    word-spacing: 20px;
+    font-size: 30px;
+  }
+  
+  .nav-wrapper {
+    position: absolute;
+    bottom: 40px;
+    width: 100vw;
+    background-color:transparent;
+  }
+  
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .navigation a {
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+  }
+  
+  .navigation a:hover {
+      background-color: rgb(0, 0, 0);
+  }
+  
